@@ -11,7 +11,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
 )
 
 //const manifestUrl = 'https://raw.githubusercontent.com/ton-community/tutorials/main/03-client/test/public/tonconnect-manifest.json';
-const manifestUrl = 'https://aceback04.github.io/ton/tonconnect-manifest.json';
+const manifestUrl = 'https://aceback04.github.io/tonconnect-manifest.json';
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <TonConnectUIProvider manifestUrl={manifestUrl}>
     <App />
